@@ -1,20 +1,20 @@
 #include <stdio.h>
 /**
- * main - Prints the alphabet in lowercase,
- * followed by a new line, except q and e
- * Return: Always 0 (Success)
-*/
+ * main - main function
+ * Description: get a random number and check its
+ * Return: 0 
+ */
 int main(void)
 {
-	char ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-	if (ch != 'e' && ch != 'q')
-	{
-	putchar(ch);
-	}
-	ch++;
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
