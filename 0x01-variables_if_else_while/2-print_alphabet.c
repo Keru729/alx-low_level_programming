@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: Get a random letter and print the lower catse
- * return:0
+ * return: 0 (success)
  */
 int main(void)
 {
