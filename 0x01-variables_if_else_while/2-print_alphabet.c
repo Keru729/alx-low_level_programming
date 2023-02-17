@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - entry point
  * Description: Get a random letter and print the lower catse
  * return: 0 (success)
  */
