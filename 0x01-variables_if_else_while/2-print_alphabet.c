@@ -1,20 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - entry point
- * Description: Get a random letter and print the lower catse
- * return: 0 (success)
- */
+ * main - Prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char c = 'a';
+	char ch;
 
-	while (c <= 'z')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
 	}
-
 	putchar('\n');
 	return (0);
 }
+
