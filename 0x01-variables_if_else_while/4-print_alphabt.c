@@ -2,7 +2,7 @@
 /**
  * main - main function
  * Description: get a random number and check its
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
