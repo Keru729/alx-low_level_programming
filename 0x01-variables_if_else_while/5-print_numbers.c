@@ -11,7 +11,7 @@ int main(void)
 {
 	char c = 'o';
 
-	while (c <= '9');
+	while (c <= '9')
 	{
 		putchar(c);
 		c++;
