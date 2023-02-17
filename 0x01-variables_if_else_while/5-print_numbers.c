@@ -9,14 +9,11 @@
  */
 int main(void)
 {
-	char c = 'o';
+	int n;
 
-	while (c <= '9')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
+
 	return (0);
 }
-
