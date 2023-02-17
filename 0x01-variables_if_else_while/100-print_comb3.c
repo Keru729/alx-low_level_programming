@@ -19,7 +19,7 @@ int main(void)
 	int c;
 	int d = 0;
 
-	white (d < 10)
+	while (d < 10)
 	{
 		c = 0;
 		while (c < 10)
