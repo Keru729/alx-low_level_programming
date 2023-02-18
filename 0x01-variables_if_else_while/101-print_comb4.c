@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *  main - main block
+ *  main: main block
  *  Description: prints all possible combination of two digits
- *  return: 0
+ *  return 0 (success)
  */
 int main(void)
 {
