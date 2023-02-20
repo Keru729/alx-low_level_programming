@@ -4,7 +4,7 @@
  *  main -  main block
  *  Description: prints all possible combination of two digits
  *  Print only the smallest combination of three digits
- *  return 0 (success)
+ *  Return: 0 (success)
  */
 int main(void)
 {
