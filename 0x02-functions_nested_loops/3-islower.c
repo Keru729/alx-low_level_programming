@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * int _islower - checkees lower case  character
+ * _islower - checkees lower case  character
+ * @c : Charcter to check the case
  * Return: o or 1
  */
 int _islower(int c)
