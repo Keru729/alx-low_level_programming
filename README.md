@@ -1,1 +1,1 @@
-ALX low level programming
+How to use the exit function
