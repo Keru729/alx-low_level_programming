@@ -1,29 +1,70 @@
-#include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
+#include <stdlib.h>
+
 /**
- * get_op_func - matches operator from main
- * @s: op str
- * Return: 0
+ * op_add - add two numbers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: 0 if false, something else otherwise.
  */
-int (*get_op_func(char *s))(int, int)
+int op_add(int a, int b)
 {
-	op_t op_s[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL}
-	};
-
-	int i = 0;
-
-	while (op_s[i].op)
-	{
-		if (*(op_s[i].op) == *s)
-			return (op_s[i].f);
-		i++;
-	}
-	return (NULL);
+	return (a + b);
 }
+/**
+ * op_sub - sub two numbers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: 0 if false, something else otherwise.
+ */
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+/**
+ * op_mul - mul two numbers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: a * b
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+/**
+ * op_div - add two numbers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: a / b.
+ */
+int op_div(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a / b);
+}
+/**
+ * op_mod - add two numbers
+ * @a: first number
+ * @b: second number
+ *
+ * Return: a % b.
+ */
+int op_mod(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a % b);
+}
+
