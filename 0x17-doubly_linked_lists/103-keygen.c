@@ -1,6 +1,6 @@
 /*
  * File: 103-keygen.c
- * Auth: KERUBEL SOLOMON
+ * Auth: Kerubel Solomon
  */
 
 #include <stdio.h>
